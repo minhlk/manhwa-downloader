@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Download Manhwa as Zip</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='jszip.min.js'></script>
+   <script src="FileSaver.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.0.2/jszip-utils.js"></script>
+    
+</head>
+<body>
+    <label for="manhwa-url" >*Example : https://manhwahentai.com/manhwa/the-sharehouse/chapter-1</label><br>
+    <input type="text" id="manhwa-url" placeholder="Enter url here">
+    <button id='btn' >Download</button>
+    <div id="isLoading" style="visibility : hidden">Downloading...</div>
+    <script src='main.js'></script>
+</body>
+</html>

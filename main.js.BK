@@ -1,0 +1,99 @@
+// let images = 'https://manhwahentai.com/wp-content/uploads/2018/11/ManhwaHentai-Logo-1.png;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/1.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/2.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/3.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/4.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/5.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/6.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/7.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/8.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/9.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/10.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/11.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/12.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/13.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/14.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/15.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/16.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/17.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/18.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/19.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/20.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/21.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/22.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/23.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/24.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/25.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/26.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/27.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/28.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/29.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/30.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/31.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/32.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/33.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/34.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/35.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/36.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/37.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/38.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/39.jpg;https://manhwahentai.com/wp-content/uploads/WP-manga/data/manga_5bf3793e73db1/d333199e3b03fe5a70315d96ee14af28/40.jpg;https://manhwahentai.com/wp-content/uploads/2019/05/Untitled-1-75x106.png;https://manhwahentai.com/wp-content/uploads/2019/05/EC-75x106.jpg;https://manhwahentai.com/wp-content/uploads/2019/05/tall-75x106.jpg;https://manhwahentai.com/wp-content/uploads/2019/05/Find-Me-75x106.jpg'
+// images = images.split(';')
+// let imagesHTML = ''
+// for (let i = 0; i < images.length; i++) {
+//     imagesHTML += `<img crossOrigin="Anonymous" class='image-item' src='${images[i]}'/><br/>`
+// }
+
+// document.getElementById('container').innerHTML = imagesHTML
+let isLoading = document.getElementById('isLoading')
+document.getElementById('btn').addEventListener('click', () => {
+    let url = document.getElementById('manhwa-url').value 
+    fetch('https://cors-anywhere.herokuapp.com/'+ url, {
+        headers: {
+            'Origin': 'https://manhwahentai.com'
+        },
+    }).then(rs =>rs.text())
+    .then(rs => {
+        isLoading.style.visibility = 'visible'
+        let tmp = document.createElement('div')
+        tmp.innerHTML = rs
+        let items = tmp.getElementsByClassName('reading-content')[0].getElementsByTagName('img')
+        let images = []
+        for (let i of items) {
+            images.push(i.getAttribute('src').trim())
+        }
+        saveImages(images)
+    }).catch(e => {
+        alert('Url invalid')
+    })
+    
+})
+function saveImages(images) {
+    var zip = new JSZip();
+    let i = 0
+    Promise.all(images.map(image => {
+        return new Promise((resolve, reject) => {
+            JSZipUtils.getBinaryContent(image, function (err, data) {
+                if (err) {
+                    reject(err) // or handle the error
+                }
+                zip.file(i++ + ".png", data, { binary: true });
+                resolve(data)
+
+
+            });
+        })
+    })).then(_ => {
+        zip.generateAsync({ type: "blob" })
+            .then(function callback(blob) {
+                saveAs(blob, "example.zip");
+                isLoading.style.visibility = 'hidden'
+            });
+    })
+
+
+}
+//SHOW ALL IMAGES
+//    console.log('start')
+//     let images = document.getElementsByClassName('image-item')
+//     let base64Images = []
+//     for(let image of images){
+//         base64Images.push(getBase64Image(image))
+//     }
+//     saveImage(base64Images)
+
+
+function getBase64Image(img) {
+    // console.log(img)
+    var canvas = document.createElement("canvas");
+    // var canvas = document.getElementById('myCanvas');
+
+    canvas.width = img.width;
+    canvas.height = img.height;
+    var ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0);
+    var dataURL = canvas.toDataURL("image/png");
+    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+}
+function saveImage(base64Images) {
+
+    var zip = new JSZip();
+    // zip.file("Hello.html", "Hello World\n");
+    // zip.folder("images");
+    // var img = zip.folder("images");
+    for (let i = 0; i < base64Images.length; i++) {
+        zip.file(i + '.png', base64Images[i], { base64: true });
+    }
+    zip.generateAsync({ type: "blob" }, function updateCallback(metadata) {
+        var msg = "progression : " + metadata.percent.toFixed(2) + " %";
+        if (metadata.currentFile) {
+            msg += ", current file = " + metadata.currentFile;
+        }
+        console.log(msg);
+
+    }).then(function (content) {
+        saveAs(content, "edm8.zip");
+        console.log('done')
+    });
+}
